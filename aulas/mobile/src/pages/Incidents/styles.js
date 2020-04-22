@@ -1,38 +1,86 @@
-import { StyleSheet } from 'react-native'
-import Constants from  'expo-constants' 
+import {StyleSheet} from 'react-native'
+
+import Constants from 'expo-constants';
+
 
 export default StyleSheet.create({
     container: {
         flex: 1,
-        paddingHorizontal:  24,
-        paddingTop: Constants.statusBarHeight + 20
-    },
+        paddingHorizontal: 24,
+        paddingTop: Constants.statusBarHeight + 20,
 
+    },
     header:{
-        flexDirection:'row',
-        justifyContent:'space-between',
-        alignItems:'center'
-    },
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center'
 
+    },
     headerText:{
         fontSize: 15,
-        color: '#737380',
+        color:'#737380',
     },
-
-    headerTextBold: {
-        fontWeight: 'bold'
+    headerTextBold:{
+        fontWeight:'bold'
     },
-
-    title: {
+    title:{
         fontSize: 30,
         marginBottom: 16,
-        marginTop:48,
-        color: '#13131A'
+        marginTop: 48,
+        color:'#13131a',
+        fontWeight:'bold'
     },
 
     description:{
+        paddingBottom: 24,
+        alignSelf: 'auto',
         fontSize: 16,
         lineHeight: 24,
-        color: '#737380'
+        color:'#737380',
+    },
+
+    incidentList:{
+        marginTop: 32,
+    },
+    incident:{
+        padding: 24,
+        borderRadius: 8,
+        backgroundColor:'#FFF',
+        marginBottom: 16,
+    },
+
+    incidentProperty: {
+        fontSize: 14,
+        color: '#41414d',
+        fontWeight: 'bold',
+        marginTop: 8,
+    },
+    incidentValue:{
+        marginTop: 8,
+        fontSize: 15,
+        marginBottom: 24,
+        color:'#737380',
+    },
+    contactBox:{
+        borderRadius: 8,
+        backgroundColor:'#FFF',
+        marginBottom: 16,
+    },      
+    detailsButton:{
+        flexDirection:'row',
+        justifyContent:'space-between',
+        alignItems: 'center',
+    },
+    detailsButtonText:{
+        color: '#e02041',
+        fontSize: 15,
+        fontWeight: 'bold',
     }
 });
+
+
+
+
+
+
+
