@@ -1,5 +1,7 @@
 # semana Oministack11 APP : be-the-hero
 
+App de uma ONG Desenvolvido em REACT NATIVE
+
 # Cadastro
 ![image](https://github.com/WallFerreira/semanaOministack11-be-the-hero-/assets/47425983/ed6cbb0d-c31a-4fb9-a853-3adfada60216)
 
